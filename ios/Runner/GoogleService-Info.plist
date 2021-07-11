@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>963262596916-dv9gdgcgvb6umlj84cbdh3shd2vuf0bm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.963262596916-dv9gdgcgvb6umlj84cbdh3shd2vuf0bm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQGvV_dXV_5L9QJycp7dHGWSJwFPE9Nkc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>963262596916</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.ugureratalar.it535.aliUgurEratalarProj</string>
+	<key>PROJECT_ID</key>
+	<string>it535hw-7ee9a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>it535hw-7ee9a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:963262596916:ios:9420ca9a5c5da9fbbf4761</string>
+</dict>
+</plist>

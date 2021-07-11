@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "963262596916",
+    "project_id": "it535hw-7ee9a",
+    "storage_bucket": "it535hw-7ee9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963262596916:android:c0b0f114590118efbf4761",
+        "android_client_info": {
+          "package_name": "edu.ugureratalar.it535.ali_ugur_eratalar_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963262596916-1ufscqbcsg19n8gdonhccgmqfi5kbcsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ugureratalar.it535.ali_ugur_eratalar_proj",
+            "certificate_hash": "073cd97a217f5965d6f204fea4564498ef25e2dc"
+          }
+        },
+        {
+          "client_id": "963262596916-s5mdckt56uciilrii3qn4qkqo56q3efv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuniCfeLy4AcpPkQjGM22yS_1d4n4OksM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963262596916-s5mdckt56uciilrii3qn4qkqo56q3efv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "963262596916-dv9gdgcgvb6umlj84cbdh3shd2vuf0bm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.ugureratalar.it535.aliUgurEratalarProj"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
