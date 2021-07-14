@@ -2,6 +2,7 @@ import 'package:ali_ugur_eratalar_proj/utils/color.dart';
 import 'package:ali_ugur_eratalar_proj/utils/style.dart';
 import 'package:ali_ugur_eratalar_proj/services/auth.dart';
 import 'package:ali_ugur_eratalar_proj/routes/register.dart';
+import 'package:ali_ugur_eratalar_proj/widget/loading.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 
@@ -17,15 +18,17 @@ class _SignInState extends State<SignIn> {
   String mail = '';
   String pass = '';
   final _formKey = GlobalKey<FormState>();
+  bool loading = false;
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return loading ? Loading():Scaffold(
       backgroundColor: AppColors.backgroundColor,
       appBar: AppBar(
         backgroundColor: AppColors.primary,
         elevation: 0.0,
         title: Text('Sign in'),
+        centerTitle: true,
       ),
       body: Container(
         padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 30.0),
