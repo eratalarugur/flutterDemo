@@ -1,5 +1,4 @@
 import 'package:ali_ugur_eratalar_proj/routes/user_tile.dart';
-import 'package:ali_ugur_eratalar_proj/widget/message_box_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ali_ugur_eratalar_proj/models/appUsers.dart';
@@ -26,10 +25,8 @@ class _UserListViewState extends State<UserListView> {
             itemCount: userList.length,
             itemBuilder: (BuildContext context, int index) {
               return UserTile(user: userList[index]);
-            },
-          ),
+            }),
         ),
-        NewMessageWidget(),
       ],
     );
   }

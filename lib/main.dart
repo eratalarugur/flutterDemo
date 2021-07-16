@@ -1,6 +1,4 @@
 import 'package:ali_ugur_eratalar_proj/routes/authStatus.dart';
-import 'package:ali_ugur_eratalar_proj/routes/home.dart';
-import 'package:ali_ugur_eratalar_proj/routes/sign_in.dart';
 import 'package:ali_ugur_eratalar_proj/services/auth.dart';
 import 'package:firebase_analytics/observer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -12,7 +10,7 @@ import 'package:provider/provider.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
-    title: "ugureratalar",
+    // title: "ugureratalar",
     home: Wrapper(),
   ));
 }

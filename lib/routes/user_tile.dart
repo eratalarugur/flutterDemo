@@ -1,4 +1,3 @@
-import 'package:ali_ugur_eratalar_proj/utils/color.dart';
 import 'package:flutter/material.dart';
 import 'package:ali_ugur_eratalar_proj/models/appUsers.dart';
 
@@ -22,7 +21,14 @@ class UserTile extends StatelessWidget {
               ),
             ),
             SizedBox(width: 16,),
-            Text((user.name)),
+            Expanded(child: Text((user.name))),
+            IconButton(
+                onPressed: () {
+                  print('send me message baby!');
+                    // Navigator.push(context, MaterialPageRoute(builder: (context) => MessagePage()));
+                },
+                icon: Icon(Icons.send_rounded, color: Colors.purple[user.strength],),
+            ),
           ],
         ),
     );
